@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Code Louisville Application</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <img class="img-fluid mx-auto d-block p-3" src="https://images.squarespace-cdn.com/content/v1/5941dba2b3db2bab435fa5a7/1523631617040-A4SVFMBSAD5OL6BQX7BR/ke17ZwdGBToddI8pDm48kEbi0xOcUBMPtPJ1nKxl34J7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iqinJXUwCvfZzt2c3UTmyH0_133MZg2Ed6tGbaptjvtwPfRGq2WUoRdTo2H3IkSnA/CL.png" alt="code louisville logo" />
+        <h1 class="text-center ">Application</h1>
+    </header>
+
+    <form class="container">
+
+        <div class="mb-3 form-group">
+            <label for="inputEmail" class="col-sm-12 col-form-label form">Email Address</label>
+            <div class="col-sm-12">
+                <input type="email" class="form-control" id="inputEmail" required>
+            </div>
+        </div>
+
+        <div class="mb-3 form-group">
+            <label for="inputFirstName" class="col-sm-12 col-form-label">First Name</label>
+            <div class="col-sm-12">
+                <input type="text" class="form-control" id="inputFirstName" required>
+            </div>
+        </div>
+
+        <div class="mb-3 form-group">
+            <label for="inputLastName" class="col-sm-12 col-form-label">Last Name</label>
+            <div class="col-sm-12">
+                <input type="text" class="form-control" id="inputLastName" required>
+            </div>
+        </div>
+
+        <div class="mb-3 form-group">
+            <label for="inputAddress" class="col-sm-12 col-form-label">Address</label>
+            <div class="col-sm-12">
+                <input type="text" class="form-control" id="inputAddress">
+            </div>
+        </div>
+
+        <div class="mb-3 form-group">
+            <label for="inputCity" class="col-sm-12 col-form-label">City</label>
+            <div class="col-sm-12">
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+        </div>
+
+        <div class="mb-3 form-group">
+            <label for="inputZipCode" class="col-sm-12 col-form-label">Zip Code</label>
+            <div class="col-sm-12">
+                <input type="text" class="form-control" id="inputZipCode">
+            </div>
+        </div>
+
+        <div class="mb-3 form-group">
+            <label for="inputDate" class="col-sm-12 col-form-label">Date of Birth</label>
+            <div class="col-sm-12">
+                <input type="text" class="form-control" id="inputDate">
+            </div>
+        </div>
+
+        <div class="mb-3 form-group">
+            <label for="inputPhone" class="col-sm-12 col-form-label">Phone</label>
+            <div class="col-sm-12">
+                <input type="text" class="form-control" id="inputPhone">
+            </div>
+        </div>
+
+        <fieldset class="mb-3 form-group">
+            <legend class="col-form-label col-sm-12 pt-0">Gender</legend>
+            <div class="col-sm-10">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="genderRadios" id="genderRadios1" value="option1">
+                    <label class="form-check-label" for="genderRadios1">
+                        Female
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="genderRadios" id="genderRadios2" value="option2">
+                    <label class="form-check-label" for="genderRadios2">
+                        Male
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="genderRadios" id="genderRadios3" value="option3">
+                    <label class="form-check-label" for="genderRadios3">
+                        Non-binary
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="genderRadios" id="genderRadios4" value="option4">
+                    <label class="form-check-label" for="genderRadios4">
+                        Prefer not to say
+                    </label>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset class="mb-3 form-group">
+            <legend class="col-form-label col-sm-2 pt-0">Race/Ethnicity</legend>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Choose</option>
+                <option value="1">American Indian/ Alaskan Naive</option>
+                <option value="2">Asian</option>
+                <option value="3">Black</option>
+                <option value="4">Hispanic/ Latino</option>
+                <option value="5">Native Hawaiian or Other Pacific Islander</option>
+                <option value="6">White</option>
+                <option value="7">I choose not to identify</option>
+            </select>
+        </fieldset>
+
+        <fieldset class="mb-3 form-group">
+            <legend class="col-form-label col-sm-12 pt-0">Are you Fluent in English</legend>
+            <div class="col-sm-10">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="languageRadios" id="languageRadios1" value="option1">
+                    <label class="form-check-label" for="languageRadios1">
+                        Yes
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="languageRadios" id="languageRadios2" value="option2">
+                    <label class="form-check-label" for="languageRadios2">
+                        No
+                    </label>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset class="mb-3 form-group">
+            <legend class="col-form-label col-sm-12 pt-0">Are you a U.S. Citizen</legend>
+            <div class="col-sm-10">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="citizenRadios" id="citizenRadios1" value="option1">
+                    <label class="form-check-label" for="citizenRadios1">
+                        U.S. Citizen
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="citizenRadios" id="citizenRadios2" value="option2">
+                    <label class="form-check-label" for="citizenRadios2">
+                        Non-Citizen Eligible for Work
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="citizenRadios" id="citizenRadios2" value="option2">
+                    <label class="form-check-label" for="citizenRadios2">
+                        Non-Citizen Ineligible for Work
+                    </label>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset class="mb-3 form-group">
+            <legend class="col-form-label col-sm-12 pt-0">Are you a veteran?</legend>
+            <div class="col-sm-10">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="veteranRadios" id="veteranRadios1" value="option1">
+                    <label class="form-check-label" for="veteranRadios1">
+                        Yes
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="veteranRadios" id="veteranRadios2" value="option2">
+                    <label class="form-check-label" for="veteranRadios2">
+                        No
+                    </label>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset class="mb-3 form-group">
+            <legend class="col-form-label col-sm-12 pt-0">What is your employment status?</legend>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Choose</option>
+                <option value="1">Employed full time</option>
+                <option value="2">Employed part time</option>
+                <option value="3">Unemployed, actively seeking work</option>
+                <option value="4">Unemployed, not seeking employment</option>
+                <option value="5">Self-employed</option>
+                <option value="6">Freelance/Contractor</option>
+            </select>
+        </fieldset>
+
+        <fieldset class="mb-3 form-group">
+            <legend class="col-form-label col-sm-12 pt-0">If unemployed, select status</legend>
+            <p class="col-form-label col-sm-12 pt-0 fs-6 text-muted">Leave blank if you are employed</p>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Choose</option>
+                <option value="1">Retired</option>
+                <option value="2">Student</option>
+                <option value="3">Disability</option>
+                <option value="4">Long Term Unemployment (26+ weeks)</option>
+                <option value="5">Homemaker</option>
+                <option value="6">Recently Released from Incarceration</option>
+            </select>
+        </fieldset>
+
+        <div class="d-grid gap-2">
+            <button class="btn btn-outline-dark" type="submit" value="submit">Submit</button>
+        </div>
+
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>

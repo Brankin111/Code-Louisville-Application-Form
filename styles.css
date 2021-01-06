@@ -1,0 +1,43 @@
+body {
+    background: rgb(237, 237, 237);
+}
+
+.img-fluid {
+    width: 80%;
+    max-width: 500px;
+}
+
+h1 {
+    text-shadow: 0 0 1px #275c67;
+}
+
+form {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+}
+
+.container {
+    max-width: 600px;
+}
+
+.form-control {
+    box-shadow: 1px 1px 3px #000;
+    border: .5px solid #000;
+}
+
+.form-group {
+    background: #fff;
+    box-shadow: 0 0 5px #000;
+    border: .5px solid #000;
+    border-radius: .5rem;
+    margin: 30px auto;
+    padding: 15px;
+}
+
+.form-select,
+.btn {
+    background: #fff;
+    border: .5px solid #000;
+    box-shadow: 1px 1px 3px #000;
+}
